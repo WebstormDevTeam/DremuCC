@@ -1,0 +1,92 @@
+engine/
+#///////////////////////////
+# Cocos Creator 3D Project
+#///////////////////////////
+library/
+temp/
+local/
+build/
+profiles/
+native
+#//////////////////////////
+# NPM
+#//////////////////////////
+node_modules/
+
+#//////////////////////////
+# VSCode
+#//////////////////////////
+.vscode/
+
+#//////////////////////////
+# WebStorm
+#//////////////////////////
+.idea/
+/engine/
+# Cocos Creator 项目 .gitignore 模板
+
+# Cocos Creator 构建目录
+build/
+temp/
+
+# 编辑器缓存文件
+library/
+local/
+prefs/
+
+# 自动生成的文件
+*.meta
+
+# 依赖包管理目录
+packages/
+
+# 编辑器配置文件
+.vscode/
+
+# 用户配置文件
+settings.js
+
+# 临时文件
+*~
+
+# 二进制文件
+*.so
+*.dll
+*.dylib
+
+# 日志文件
+*.log
+
+# 编辑器备份文件
+.*.swp
+
+# 操作系统生成的隐藏文件
+.*
+!.gitignore
+
+# Visual Studio Code 的设置文件
+.vscode/*
+!/.vscode/extensions
+
+# JetBrains 相关 (如 WebStorm, IntelliJ IDEA)
+.idea/
+
+# Unity 相关 (如果您有混合使用的情况)
+ProjectSettings/
+
+# Xcode 相关 (如果您有混合使用的情况)
+*.xcworkspace
+xcuserdata
+
+# Android Studio / Gradle 相关
+.gradle/
+
+# npm 或 yarn 依赖
+node_modules/
+
+# Python 虚拟环境
+venv/
+
+# 其他通用忽略项
+*.DS_Store
+*.class
